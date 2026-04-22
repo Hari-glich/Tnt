@@ -9,7 +9,7 @@ class circle(shape):
         self.radius=radius
     def area(self):
         return 3.14*self.radius**2         
-c1=circle(10)
+c1=circle(10 )
 print(f"The area of the {c1.name} is: {c1.area()}")
 
 def area(shape):
